@@ -6,7 +6,7 @@ import './style.css';
 import {MetricContext} from '../../context/metric-context.js';
 import { useContext } from 'react';
 
-
+// esto es para borrar
 
 export default function ActualDay(props) {
 
@@ -74,7 +74,7 @@ export default function ActualDay(props) {
                             fontSize: '18px'
                         }}
                     >{fecha}</Box>
-                    
+
                     <Box
                         sx={{
                             paddingTop: '10px',

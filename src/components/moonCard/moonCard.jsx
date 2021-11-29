@@ -4,7 +4,7 @@ import React from 'react';
 export default function MoonCard(props) {
 
 
-
+// esto es para borrar
 
 
 
@@ -18,7 +18,7 @@ export default function MoonCard(props) {
                     alt="icono tiempo diario"
                     image={window.location.origin + `/img/moon/01n.png`}
                 />
-                
+
                 <Typography variant="p" textAlign="center" fontFamily='OrbitronLight' fontSize='14px' color="#F3F3F4">
                     Fase Lunar
                 </Typography>

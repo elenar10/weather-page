@@ -5,6 +5,8 @@ import { MetricContext } from '../../context/metric-context';
 import { useContext } from 'react';
 export default function ActualInfo(props) {
 
+    // esto es para borrar
+
     const addZero = (num) => {
         return num < 10 ? `0${num}` : num;
     }
@@ -33,7 +35,7 @@ export default function ActualInfo(props) {
                 paddingBottom:"100px"
 
             }}>
-                
+
             <Stack direction="column"
                 justifyContent="center"
                 alignItems="center"

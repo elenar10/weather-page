@@ -6,6 +6,7 @@ import { useContext } from 'react';
 export default function DailiesComponent(props) {
 
     const [metric] = useContext(MetricContext);
+// esto s para borrar
 
     return (
         <React.Fragment>
@@ -38,7 +39,7 @@ export default function DailiesComponent(props) {
                     typography: 'p',
                 }}>Máx: {Math.round(props.data?.daily?.[0].temp.max)}º {metric === 'metric' ? 'C' : 'F'}
             </Box>
-            
+
             <Box
                 sx={{
                     display: 'flex',
