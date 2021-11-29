@@ -47,7 +47,9 @@ export default function DailiesComponent(props) {
                     height:"40px",
                     backgroundColor: '#FDECF2B5',
                     fontFamily: 'OrbitronBold',
+
                 }}>
+                    
                 Min: {Math.round(props.data?.daily?.[0].temp.min)}º {metric === 'metric' ? 'C' : 'F'}
             </Box>
         </React.Fragment>

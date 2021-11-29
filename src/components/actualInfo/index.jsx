@@ -23,10 +23,6 @@ export default function ActualInfo(props) {
 
     const [metric] = useContext(MetricContext)
 
-
-
-
-
     return (
 
         <Box sx={{
@@ -35,6 +31,7 @@ export default function ActualInfo(props) {
                 justifyContent: "space-around",
                 color: '#F3F3F4',
                 paddingBottom:"100px"
+                
             }}>
             <Stack direction="column"
                 justifyContent="center"

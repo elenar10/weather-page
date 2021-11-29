@@ -6,6 +6,8 @@ export default function MoonCard(props) {
 
 
 
+    
+
     if (props.datos === 0 || props.datos === 1) {
         return (
             <React.Fragment>
