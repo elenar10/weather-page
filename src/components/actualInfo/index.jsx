@@ -31,8 +31,9 @@ export default function ActualInfo(props) {
                 justifyContent: "space-around",
                 color: '#F3F3F4',
                 paddingBottom:"100px"
-                
+
             }}>
+                
             <Stack direction="column"
                 justifyContent="center"
                 alignItems="center"

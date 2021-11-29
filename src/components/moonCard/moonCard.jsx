@@ -6,17 +6,19 @@ export default function MoonCard(props) {
 
 
 
-    
+
 
     if (props.datos === 0 || props.datos === 1) {
         return (
             <React.Fragment>
+
                 <CardMedia
                     component="img"
                     className="image_actualinfo"
                     alt="icono tiempo diario"
                     image={window.location.origin + `/img/moon/01n.png`}
                 />
+                
                 <Typography variant="p" textAlign="center" fontFamily='OrbitronLight' fontSize='14px' color="#F3F3F4">
                     Fase Lunar
                 </Typography>

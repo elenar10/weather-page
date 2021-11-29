@@ -38,6 +38,7 @@ export default function DailiesComponent(props) {
                     typography: 'p',
                 }}>Máx: {Math.round(props.data?.daily?.[0].temp.max)}º {metric === 'metric' ? 'C' : 'F'}
             </Box>
+            
             <Box
                 sx={{
                     display: 'flex',
@@ -49,9 +50,10 @@ export default function DailiesComponent(props) {
                     fontFamily: 'OrbitronBold',
 
                 }}>
-                    
+
                 Min: {Math.round(props.data?.daily?.[0].temp.min)}º {metric === 'metric' ? 'C' : 'F'}
             </Box>
+
         </React.Fragment>
     )
 }
